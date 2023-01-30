@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=   device-width, initial-scale=1.0">
-    <title>Luciano</title>
+    <title>Luciano CV</title>
     <link rel="icon" type="image/x-icon" href="res/favicon_64.png">
     <link rel="stylesheet" href="css/index.css">
     <script defer src="js/index.js"></script>
@@ -12,16 +12,16 @@
 <body>
     <nav class="top-nav">
         <div class="top-nav__links">
-            <a href="#" class="top-nav__link lg--display-none" id="menu-btn">
+            <a class="top-nav__link lg--display-none" id="menu-btn">
                 <img class="top-nav__image" src="res/menu_light_64.png" alt="menu">
             </a>
-            <a href="#" class="top-nav__link">
+            <a href="#" class="top-nav__link spr--no-built">
                 <img class="top-nav__image" src="res/home_light_64.png" alt="home">
                 <span class="sm--display-none">&nbsp; HOME</span>
             </a>
-            <a href="#" class="top-nav__link top-nav--expanded">SOLUCIONES</a>
+            <a href="#" class="top-nav__link top-nav--expanded spr--no-built">SOLUCIONES</a>
         </div>
-        <a href="#" class="top-nav__link">
+        <a href="#" class="top-nav__link spr--no-built">
             <span>LOGIN &nbsp;</span>
             <img class="top-nav__image" src="res/usr_32.png" alt="login-img">
         </a>
@@ -30,33 +30,47 @@
         <div class="opening">
             <p class="opening__caption">&lt;<span class="opening__text">CV</span>&sol;&gt;</p>
         </div>
-        <div class="curtain sprclss--display-none lg--display-none" id="curtain">
-        </div>
+        <div class="curtain sprclss--display-none lg--display-none" id="curtain"></div>
         <header class="page-header" id="page-header">
             <h1 class="page-header__title">Luciano Ruffener</h1>
-            <h2 class="page-header__subtitle">&gt;desarrollador-junior<span class="cursor">_</span></h2>
+            <h2 class="page-header__subtitle">&gt;programador-junior<span class="cursor">_</span></h2>
         </header>
         <aside class="left-sidebar">
             <img src="res/profile-picture.jpg" class="profile-picture" alt="imagen-de-perfil">
             <div class="left-sidebar__contacts">
                 <a class="left-sidebar__contact-link" href="https://goo.gl/maps/xkQLPNAZffSyHm7P7" target="_blank" rel="noreferrer">
-                    <img class="left-sidebar__contact-img" src="res/location-light-64.png">
+                    <div class="left-sidebar__contact-img-wrapper">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-back-img" src="res/location-text-64.png">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-fore-img" src="res/location-fore-64.png">
+                    </div>
                     José de la Quintana
                 </a>
-                <a class="left-sidebar__contact-link">
-                    <img class="left-sidebar__contact-img" src="res/phone-text-64.png">
+                <a class="left-sidebar__contact-link" href="tel:+5493516213444">
+                    <div class="left-sidebar__contact-img-wrapper">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-back-img" src="res/phone-text-64.png">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-fore-img" src="res/phone-fore-64.png">
+                    </div>
                     +54 9 351 6213444
                 </a>
                 <a class="left-sidebar__contact-link" href="mailto:lucianoruffener@gmail.com">
-                    <img class="left-sidebar__contact-img" src="res/mail-text-64.png">
+                    <div class="left-sidebar__contact-img-wrapper">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-back-img" src="res/mail-text-64.png">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-fore-img" src="res/mail-fore-64.png">
+                    </div>
                     lucianoruffener@gmail.com
                 </a>
                 <a class="left-sidebar__contact-link" href="https://ar.linkedin.com/" target="_blank" rel="noreferrer">
-                    <img class="left-sidebar__contact-img" src="res/linkedin-text-64.png">
+                    <div class="left-sidebar__contact-img-wrapper">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-back-img" src="res/linkedin-text-64.png">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-fore-img" src="res/linkedin-fore-64.png">
+                    </div>
                     Luciano Ruffener
                 </a>
                 <a class="left-sidebar__contact-link" href="https://github.com/lucianorumia" target="_blank" rel="noreferrer">
-                    <img class="left-sidebar__contact-img" src="res/github-text-64.png">
+                    <div class="left-sidebar__contact-img-wrapper">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-back-img" src="res/github-text-64.png">
+                        <img class="left-sidebar__contact-img left-sidebar__contact-fore-img" src="res/github-fore-64.png">
+                    </div>
                     lucianorumia
                 </a>
             </div>
@@ -65,30 +79,28 @@
             <section id="about-me" class="main-content__section">
                 <h2 class="section__header">Sobre m&iacute;</h2>
                 <div class="section-entry">
-                    <p class="section-entry__description">
-                        <span>
-                            Inquieto, colaborativo, aplicado...
-                            He ido acercándome a la programación, 
-                            primero de manera <em class="emphasis">autodidacta</em>
-                            y como una necesidad de ofrecer <em class="emphasis">soluciones</em> 
-                            a las problemáticas que surgían de las mismas tareas de las que he sido responsable,
-                            en su mayoría vinculadas al mundo de las <em class="emphasis">finanzas</em>.
-                            Hoy quiero <em class="emphasis">consolidarme</em> formalmente en el sector IT
-                            y encontrar un empleo donde <em class="emphasis">aportar</em> mis conocimientos y habilidades. 
-                        </span>
-                        <input type="checkbox" id="see-more" class="see-more__state sprclss--display-none">
-                        <span class="see-more__target">
-                            <br><br>En este camino, voy descubriendo como fortalezas personales:
-                            <br> - una interpretación clara e intuitiva de las distintas lógicas de negocio;
-                            <br> - su consecuente abstracción y estructuración de datos;
-                            <br> - que se traduce en el desarrollo de herramientas útiles para el usuario final.
-                            <br><br>Considero que tengo capacidades para el trabajo en equipo,
-                            entre las que destaco el saber escuchar y la apertura para dejarme enseñar.
-                            <br><br>Con el tiempo, programar se ha vuelto una experiencia apasionante, 
-                            en la que me desenvuelvo con naturalidad y que, al mismo tiempo, no deja de desafiarme día a día.
-                        </span>
-                        <label class="see-more__trigger" for="see-more"></label>
-                    </p>
+                    <span class="section-entry__description">
+                        Inquieto, colaborativo, aplicado...
+                        He ido acercándome a la programación, 
+                        primero de manera <em class="emphasis">autodidacta</em>
+                        y como una necesidad de ofrecer <em class="emphasis">soluciones</em> 
+                        a las problemáticas que surgían de las mismas tareas de las que he sido responsable,
+                        en su mayoría vinculadas al mundo de las <em class="emphasis">finanzas</em>.
+                        Hoy quiero <em class="emphasis">consolidarme</em> formalmente en el sector IT
+                        y encontrar un empleo donde <em class="emphasis">aportar</em> mis conocimientos y habilidades. 
+                    </span>
+                    <input type="checkbox" id="see-more" class="see-more__state sprclss--display-none">
+                    <span class="section-entry__description see-more__target">
+                        <br><br>En este camino, voy descubriendo como <em class="emphasis">fortalezas</em> personales:
+                        <br> - una interpretación clara e intuitiva de las distintas <em class="emphasis">lógicas de negocio</em>;
+                        <br> - su consecuente <em class="emphasis">abstracción</em> y <em class="emphasis">modelación</em> de la estructura de datos;
+                        <br> - que se traduce en el desarrollo de herramientas útiles para el usuario final.
+                        <br><br>Considero que tengo capacidades para el <em class="emphasis">trabajo en equipo</em>,
+                        entre las que destaco el saber escuchar y la apertura para dejarme enseñar.
+                        <br><br>Con el tiempo, programar se ha vuelto una <em class="emphasis">experiencia apasionante</em>, 
+                        en la que me desenvuelvo con naturalidad y que, al mismo tiempo, no deja de desafiarme día a día.
+                    </span>
+                    <label class="see-more__trigger" for="see-more"></label>
                 </div>
             </section>
             <section id="experience" class="main-content__section">
@@ -158,7 +170,7 @@
                     <h3 class="section-entry__title">
                         Bachillerato orientado en Economia y Gestión de las Organizaciones
                     </h3>
-                    <p class="section-entry__description">Colegio de la inmaculada, Córdoba</p>
+                    <p class="section-entry__description">Colegio de la Inmaculada, Córdoba</p>
                     <p class="section-entry__description">
                         <span class="section-entry__clause-header">Distinciones: </span>
                         abanderado nacional, premio Banco Roela, premio Inmaculada
@@ -182,22 +194,25 @@
             </section>
             <section id="contact" class="main-content__section">
                 <h2 class="section__header">Contacto</h2>
-                <form class="contact-form" autocomplete="off">
+                <form class="contact-form" method="post" autocomplete="off">
                     <div class="contact-form__field">
-                        <label for="nombre" class="contact-form__label">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" class="contact-form__input">
+                        <label for="nombre-input" class="contact-form__label">Nombre</label>
+                        <input type="text" name="nombre" id="nombre-input" class="contact-form__input">
+                        <div class="vldt__caption"></div>
                     </div>
-                    <div>
-                        <label for="email" class="contact-form__label">Email</label>
-                        <input type="text" name="email" id="email" class="contact-form__input">
+                    <div class="contact-form__field">
+                        <label for="email-input" class="contact-form__label">Email</label>
+                        <input type="email" name="email" id="email-input" class="contact-form__input">
+                        <div class="vldt__caption"></div>
                     </div>
-                    <div>
-                        <label for="message" class="contact-form__label">Mensaje</label>
-                        <textarea name="message" id="message" class="contact-form__input" rows="4"></textarea>
+                    <div class="contact-form__field">
+                        <label for="message-input" class="contact-form__label">Mensaje</label>
+                        <textarea name="message" id="message-input" class="contact-form__input" rows="4"></textarea>
+                        <div class="vldt__caption"></div>
                     </div>
                     <div class="contact-form__buttons-area">
-                        <input type="reset" id="contactFormReset" class="contact-form__button" value="Limpiar">
-                        <input type="submit" id="contactFormSubmit" class="contact-form__button" value="Enviar">
+                        <input type="reset" id="contact-form-reset" class="contact-form__button" value="Limpiar">
+                        <input type="submit" id="contact-form-submit" class="contact-form__button" value="Enviar">
                     </div>
                 </form>
             </section>
@@ -206,7 +221,7 @@
             <ul id="navigator-list" class="navigator__list">
                 <a class="navigator__link md--display-none" href="#page-header">Inicio</a>
             </ul>
-            <a class="navigator__link" href="res/LM317_ds.pdf" download="Luciano Ruffener CV.pdf" target="_blank">Descargar CV</a>
+            <a class="navigator__link" href="res/luciano-cv.pdf" download="CV Luciano Ruffener.pdf" target="_blank">Descargar CV</a>
         </aside>
     </div>
     <footer>from RUMIA</footer>
