@@ -152,7 +152,7 @@ function setNoBuiltLinks() {
     noBuiltLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
-            alert('Enlace a un sitio en construcción.\n(no diponible en este momento)');
+            alert('Enlace no diponible.');
         });
     });
 }
